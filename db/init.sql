@@ -1,3 +1,4 @@
+CREATE DATABASE dragon;
 CREATE TABLE `user` (
     `id` int NOT NULL AUTO_INCREMENT,
     `name` varchar(20) COLLATE utf8mb4_general_ci DEFAULT NULL COMMENT '姓名',
