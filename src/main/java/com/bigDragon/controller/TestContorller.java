@@ -2,6 +2,7 @@ package com.bigDragon.controller;
 
 import java.util.*;
 
+import com.bigDragon.util.i18n.I18nUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -23,10 +24,9 @@ public class TestContorller {
 		modelAndView.setViewName("demo");
 		return modelAndView;
 	}
-	@RequestMapping("/success2")
-	public String success2(Map<String,Object> map){
-		map.put("hello","你好");
-		return "success2";
+	@RequestMapping("/success")
+	public String success(){
+		return I18nUtil.chooseLanguageCoverMsg("成功");
 	}
 
 }
