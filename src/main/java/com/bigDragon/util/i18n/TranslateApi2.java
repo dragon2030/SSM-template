@@ -29,9 +29,9 @@ public class TranslateApi2 {
 
     private static final String YOUDAO_URL = "https://openapi.youdao.com/v2/api";
 
-    private static final String APP_KEY = "00b1e87df393d72c";
+    private static final String APP_KEY = "自己去申请一个";
 
-    private static final String APP_SECRET = "vTlDm684mNatpTeMsnWbov2jp84iIKPL";
+    private static final String APP_SECRET = "自己去申请一个";
 
     //配置文件map  配置文件变量key-中文需要翻译内容value
     static Map<String, String> fileContentMap = new HashMap<>();//翻译中只用到了value
